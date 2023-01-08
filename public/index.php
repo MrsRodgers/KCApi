@@ -817,7 +817,7 @@ $app->post('/createAppCleaningDuty', function(Request $request, Response $respon
  	* Parameters: RiskAppTemperatureID, ItemName, ItemTemperature, TemperatureDate, TemperatueTime, UnitID, EmployeeID
  	* Method:Get
  	*/
-	 $app->get('/allApprovedTempeatures', function(Request $request, Response $response){
+	 $app->get('/allApprovedRiskTempeatures', function(Request $request, Response $response){
 		$dbO= new DbOperations;
 		if (!emptyParameters(array('UnitID'), $response)){
 			$users = $dbO->getallRiskApprovedTempeaturesbyID($unitID);
