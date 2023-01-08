@@ -11,7 +11,12 @@ require __DIR__ . '/../connections/dboperations.php';
 $app = AppFactory::create();
 $app->setBasePath("/KCApi/public");
 $app->addErrorMiddleware(true, true, true);
-
+$app->add(new Tuupola\Middleware\HttpBasicAuthentication([
+    "users" => [
+        "KCUser" => "KC1287037956795",
+        
+    ]
+]));
 
 /*
  * Endpoint: Create Employee
