@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11a860df3a37289b468a467850e2e750",
+    "content-hash": "2f4fa212610a1b20138896b694e88707",
     "packages": [
         {
             "name": "fig/http-message-util",
@@ -1980,16 +1980,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.9.6",
+            "version": "1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "ef38a25950e5d0e6c95eedf49d8a784272f8dc5e"
+                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ef38a25950e5d0e6c95eedf49d8a784272f8dc5e",
-                "reference": "ef38a25950e5d0e6c95eedf49d8a784272f8dc5e",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/5419375b5891add97dc74be71e6c1c34baaddf64",
+                "reference": "5419375b5891add97dc74be71e6c1c34baaddf64",
                 "shasum": ""
             },
             "require": {
@@ -2019,7 +2019,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpstan/phpstan/issues",
-                "source": "https://github.com/phpstan/phpstan/tree/1.9.6"
+                "source": "https://github.com/phpstan/phpstan/tree/1.10.3"
             },
             "funding": [
                 {
@@ -2035,7 +2035,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-03T13:40:32+00:00"
+            "time": "2023-02-25T14:47:13+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
