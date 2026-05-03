@@ -1,2 +1,2 @@
-Thesis KitchCheck Thesis API. 
+KitchCheck Thesis API. 
 For submitted android application.
